@@ -599,7 +599,7 @@ export default {
     },
     handleProductScheduleSelected(row){
       this.openProductSchedule = false
-      this.form.productSchedule = row.id
+      this.form.productSchedule = row.planNo
     }
   }
 };
